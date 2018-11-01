@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="generator" />
+        <module name="store-common" />
+        <module name="store-dao" />
+        <module name="store-manager-web" />
+        <module name="store-pojo" />
+        <module name="store-sellergoods-interface" />
+        <module name="store-sellergoods-service" />
+        <module name="store-shop-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="generator" target="1.8" />
+      <module name="generator1" target="1.8" />
+      <module name="store-common" target="1.8" />
+      <module name="store-dao" target="1.8" />
+      <module name="store-manager-web" target="1.8" />
+      <module name="store-parent" target="1.8" />
+      <module name="store-pojo" target="1.8" />
+      <module name="store-sellergoods-interface" target="1.8" />
+      <module name="store-sellergoods-service" target="1.8" />
+      <module name="store-shop-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
