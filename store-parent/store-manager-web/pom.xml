@@ -79,6 +79,11 @@
             <scope>provided</scope>
         </dependency>
 
+        <dependency>
+            <groupId>com.qiang</groupId>
+            <artifactId>store-sellergoods-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>

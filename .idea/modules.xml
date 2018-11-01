@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/generator1/generator.iml" filepath="$PROJECT_DIR$/generator1/generator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/generator1/src/main/main.iml" filepath="$PROJECT_DIR$/generator1/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/store-parent/store-common/store-common.iml" filepath="$PROJECT_DIR$/store-parent/store-common/store-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/store-parent/store-dao/store-dao.iml" filepath="$PROJECT_DIR$/store-parent/store-dao/store-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/store-parent/store-manager-web/store-manager-web.iml" filepath="$PROJECT_DIR$/store-parent/store-manager-web/store-manager-web.iml" />

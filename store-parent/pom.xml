@@ -16,8 +16,8 @@
         <module>store-sellergoods-service</module>
         <module>store-shop-web</module>
         <module>store-manager-web</module>
-        <module>../generator1</module>
-        <module>../generator1</module>
+
+
     </modules>
 
     <!-- 集中定义依赖版本号 -->
@@ -246,7 +246,7 @@
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpcore</artifactId>
-                <version>4.4.4</version>
+                <version>4.4.6</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
@@ -261,7 +261,7 @@
             <dependency>
                 <groupId>xml-apis</groupId>
                 <artifactId>xml-apis</artifactId>
-                <version>1.4.01</version>
+                <version>2.0.2</version>
             </dependency>
         </dependencies>
 
