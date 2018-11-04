@@ -2,151 +2,523 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf27f7b1-c30a-4dc3-86c7-489875e36e3a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/BrandController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/BrandService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/BrandServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/store_manager_web_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/store_manager_web_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/store_sellergoods_service_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/store_sellergoods_service_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-common/src/main/java/common/StringUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/brand.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/content.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/content_category.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/goods.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/home.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/item_cat.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/seller.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/seller_1.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/specification.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/type_template.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/css/pages-login-manage.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/css/webbase.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/57b51ea9Nb862ca5e.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/Logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/b1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/b2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/b3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/banner.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/buy001.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/buy002.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/buy01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/car.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/clock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/code.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/cooperation_banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/down-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/dp01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/dp02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/dp03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/dp04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/empty_heart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/erweima.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/fail.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/gocart.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/gocart01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/gotop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/icon-red.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/intro01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/intro02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/intro03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/itemlike01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/itemlike02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/itemlike03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/itemlike04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/itemlike05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/itemlike06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/l-m01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/list.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/list.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/login-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/manage-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/mobile01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/mobile02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/mobile03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/mobile04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/mobile05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/mobile06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/part01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/part02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/part03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/pay1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/pay10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/pay11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/pay12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/pay13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/pay14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/pay15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/pay16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/pay17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/pay18.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/pay19.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/pay2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/pay20.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/pay21.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/pay22.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/pay3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/pay4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/pay5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/phone-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/phone01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/phone02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/phone03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/phone04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/phone05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/phone06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/phone07.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/phone08.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/phone09.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/phone10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/phone11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/phone12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/phone13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/phone14.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/photo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/photo_icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/right.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/s1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/s2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/s3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/sampling_head.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/seckillbg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/shi_heart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/shop-intro.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/shop-logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/shop-part.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/t.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/title_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/_/y24.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/account.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/ad.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/ad1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/ali.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/american-express.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/itemlike/itemlike01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/itemlike/itemlike02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/itemlike/itemlike03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/itemlike/itemlike04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/itemlike/itemlike05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/itemlike/itemlike06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/pay/fail.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/pay/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/pay/pay1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/pay/pay10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/pay/pay11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/pay/pay12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/pay/pay13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/pay/pay14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/pay/pay15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/pay/pay16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/pay/pay17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/pay/pay18.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/pay/pay19.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/pay/pay2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/pay/pay20.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/pay/pay21.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/pay/pay22.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/pay/pay3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/pay/pay4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/pay/pay5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/pay/right.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/dp01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/dp02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/dp03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/dp04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/intro01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/intro02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/intro03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/l-m01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/mobile01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/mobile02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/mobile03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/mobile04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/mobile05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/mobile06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/part01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/part02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/part03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/phone01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/phone02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/phone03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/phone04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/phone05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/phone06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/phone07.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/phone08.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/phone09.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/phone10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/phone11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/phone12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/phone13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/phone/phone14.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/success-cart/buy001.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/success-cart/buy002.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/success-cart/buy01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/success-cart/gocart.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/success-cart/gocart01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/zoom/b1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/zoom/b2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/zoom/b3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/zoom/s1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/zoom/s2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/assets/img/zoom/s3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/avatar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/avatar04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/avatar2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/avatar3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/avatar5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/banner1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/banner1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/banner2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/banner3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/banner4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/barrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/boxed-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/boxed-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/brand01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/brand02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/brand03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/brand04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/brand05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/brand06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/brand07.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/brand08.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/brand09.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/brand10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/brand11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/brand12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/brand13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/brand_03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/brand_05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/brand_07.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/brand_09.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/brand_11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/brand_13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/brand_15.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/brand_17.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/brand_19.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/brand_21.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/cartPanelViewIcons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/choosed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/cirrus.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/clock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/delete.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/duihuan.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/erweima.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/floor-1-1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/floor-1-2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/floor-1-3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/floor-1-4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/floor-1-5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/floor-1-6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/floor-1-b01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/floor-1-b02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/floor-1-b03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/goods.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/icon-red.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/interest01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/interest02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/interest03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/interest04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/interest05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/interest06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/like1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/like2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/like3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/like4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/like_01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/like_02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/like_03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/like_04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/like_05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/like_06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/linker.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/lock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/loginbg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/mastercard.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/mestro.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/mod-list.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/paypal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/paypal2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/phone-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/photo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/photo1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/photo2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/photo3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/photo4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/qq.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/quan.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/sina.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/today01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/today02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/today03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/today04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/user1-128x128.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/user2-160x160.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/user3-128x128.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/user4-128x128.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/user5-128x128.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/user6-128x128.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/user7-128x128.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/user8-128x128.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/visa.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/weixin.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/wx_cz.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/img/zoom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/pages/addressList.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/pages/city-picker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/pages/getOrderInfo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/pages/home.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/pages/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/pages/jquery.slideunlock.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/pages/login-manage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/pages/login.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/pages/main.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/pages/person-collect.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/pages/person-footmark.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/pages/register.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/pages/seckill-index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/pages/shop.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/pages/shoplogin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/pages/sm-city-picker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/plugins/birthday/birthday.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/plugins/citypicker/distpicker.data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/plugins/citypicker/distpicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/plugins/jquery-placeholder/jquery.placeholder.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/plugins/jquery.easing/jquery.easing.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/plugins/jquery.jqzoom/jquery.jqzoom.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/plugins/jquery.jqzoom/zoom.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/plugins/jquery/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/plugins/sui/sui.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/plugins/upload/uploadPreview.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/AdminLTE.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/AdminLTE.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-bootstrap-social.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-bootstrap-social.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-fullcalendar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-fullcalendar.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-select2.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-select2.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-without-plugins.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-without-plugins.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/_all-skins.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/_all-skins.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-black-light.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-black-light.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-black.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-black.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-blue-light.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-blue-light.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-blue.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-blue.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-green-light.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-green-light.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-green.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-green.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-purple-light.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-purple-light.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-purple.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-purple.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-red-light.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-red-light.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-red.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-red.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-yellow-light.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-yellow-light.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-yellow.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/css/skins/skin-yellow.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/avatar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/avatar04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/avatar2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/avatar3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/avatar5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/boxed-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/boxed-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/credit/american-express.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/credit/cirrus.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/credit/mastercard.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/credit/mestro.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/credit/paypal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/credit/paypal2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/credit/visa.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/default-50x50.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/photo1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/photo2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/photo3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/photo4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/user1-128x128.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/user2-160x160.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/user3-128x128.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/user4-128x128.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/user5-128x128.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/user6-128x128.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/user7-128x128.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/img/user8-128x128.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/js/app.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/js/app.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/js/demo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/js/pages/dashboard.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/adminLTE/js/pages/dashboard2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/angularjs/angular-animate.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/angularjs/angular-route.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/angularjs/angular.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/angularjs/pagination.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/angularjs/pagination.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/bootstrap/css/bootstrap-datetimepicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/bootstrap/css/bootstrap-theme.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/bootstrap/css/bootstrap-theme.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/bootstrap/css/bootstrap-theme.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/bootstrap/css/bootstrap-theme.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/bootstrap/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/bootstrap/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/bootstrap/css/bootstrap.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/bootstrap/images/arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/bootstrap/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/bootstrap/js/npm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/jQuery/jquery-2.2.3.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/.bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/angular-select2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/component.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/composer.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/release.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2-bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2-spinner.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2.jquery.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_ar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_bg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_ca.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_cs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_da.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_de.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_el.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_en.js.template" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_es.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_et.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_eu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_fa.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_fi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_fr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_gl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_he.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_hr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_hu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_id.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_is.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_it.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_ja.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_ka.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_ko.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_lt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_lv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_mk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_ms.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_nl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_no.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_pl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_pt-BR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_pt-PT.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_ro.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_rs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_ru.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_sk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_sv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_th.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_tr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_uk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_vi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_zh-CN.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2_locale_zh-TW.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/plugins/select2/select2x2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/entity/PageResult.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/entity/Result.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/webapp/index.html" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/generator1/generator.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/generator1.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/lib/log4j-1.2.16.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/lib/mybatis-3.2.3.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/lib/mybatis-generator-core-1.3.2.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/lib/mysql-connector-java-5.1.28-bin.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/lib/ojdbc14.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbAddressMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbAreasMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbBrandMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbCitiesMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbContentCategoryMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbContentMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbFreightTemplateMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbGoodsDescMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbGoodsMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbItemCatMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbItemMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbOrderItemMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbOrderMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbPayLogMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbProvincesMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbSellerMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbSpecificationMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbSpecificationOptionMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbTypeTemplateMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbUserMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbAddress.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbAddressExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbAreas.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbAreasExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbBrand.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbBrandExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbCities.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbCitiesExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbContent.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbContentCategory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbContentCategoryExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbContentExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbFreightTemplate.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbFreightTemplateExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbGoods.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbGoodsDesc.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbGoodsDescExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbGoodsExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbItem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbItemCat.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbItemCatExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbItemExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbOrder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbOrderExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbOrderItem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbOrderItemExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbPayLog.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbPayLogExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbProvinces.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbProvincesExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbSeller.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbSellerExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbSpecification.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbSpecificationExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbSpecificationOption.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbSpecificationOptionExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbTypeTemplate.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbTypeTemplateExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbUser.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/java/com/store/pojo/TbUserExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/main.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/resources/com/store/mapper/TbAddressMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/resources/com/store/mapper/TbAreasMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/resources/com/store/mapper/TbBrandMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/resources/com/store/mapper/TbCitiesMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/resources/com/store/mapper/TbContentCategoryMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/resources/com/store/mapper/TbContentMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/resources/com/store/mapper/TbFreightTemplateMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/resources/com/store/mapper/TbGoodsDescMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/resources/com/store/mapper/TbGoodsMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/resources/com/store/mapper/TbItemCatMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/resources/com/store/mapper/TbItemMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/resources/com/store/mapper/TbOrderItemMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/resources/com/store/mapper/TbOrderMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/resources/com/store/mapper/TbPayLogMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/resources/com/store/mapper/TbProvincesMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/resources/com/store/mapper/TbSellerMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/resources/com/store/mapper/TbSpecificationMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/resources/com/store/mapper/TbSpecificationOptionMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/resources/com/store/mapper/TbTypeTemplateMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/resources/com/store/mapper/TbUserMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/resources/generatorConfig.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/generator1/src/main/resources/log4j.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/store-parent/pom.xml" afterPath="$PROJECT_DIR$/store-parent/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-common/target/store-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/store-parent/store-common/target/store-common-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-dao/pom.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/properties/db.properties" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/properties/db.properties" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/spring/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/spring/applicationContext-dao.xml" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-dao/store-dao.iml" afterPath="$PROJECT_DIR$/store-parent/store-dao/store-dao.iml" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-dao/target/classes/properties/db.properties" afterPath="$PROJECT_DIR$/store-parent/store-dao/target/classes/properties/db.properties" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-dao/target/classes/spring/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/target/classes/spring/applicationContext-dao.xml" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/store-parent/store-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-dao/target/store-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/store-parent/store-dao/target/store-dao-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/pom.xml" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/BrandController.java" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/BrandController.java" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/resources/spring/springmvc.xml" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/resources/spring/springmvc.xml" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/store-manager-web.iml" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/store-manager-web.iml" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbAddressMapper.java" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbAddressMapper.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbAreasMapper.java" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbAreasMapper.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbBrandMapper.java" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbBrandMapper.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbCitiesMapper.java" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbCitiesMapper.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbContentCategoryMapper.java" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbContentCategoryMapper.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbContentMapper.java" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbContentMapper.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbFreightTemplateMapper.java" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbFreightTemplateMapper.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbGoodsDescMapper.java" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbGoodsDescMapper.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbGoodsMapper.java" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbGoodsMapper.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbItemCatMapper.java" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbItemCatMapper.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbItemMapper.java" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbItemMapper.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbOrderItemMapper.java" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbOrderItemMapper.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbOrderMapper.java" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbOrderMapper.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbPayLogMapper.java" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbPayLogMapper.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbProvincesMapper.java" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbProvincesMapper.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbSellerMapper.java" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbSellerMapper.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbSpecificationMapper.java" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbSpecificationMapper.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbSpecificationOptionMapper.java" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbSpecificationOptionMapper.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbTypeTemplateMapper.java" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbTypeTemplateMapper.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbUserMapper.java" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbUserMapper.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbBrand.java" afterPath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbBrand.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com/store/mapper/TbAddressMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbAddressMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com/store/mapper/TbAreasMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbAreasMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com/store/mapper/TbBrandMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbBrandMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com/store/mapper/TbCitiesMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbCitiesMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com/store/mapper/TbContentCategoryMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbContentCategoryMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com/store/mapper/TbContentMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbContentMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com/store/mapper/TbFreightTemplateMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbFreightTemplateMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com/store/mapper/TbGoodsDescMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbGoodsDescMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com/store/mapper/TbGoodsMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbGoodsMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com/store/mapper/TbItemCatMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbItemCatMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com/store/mapper/TbItemMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbItemMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com/store/mapper/TbOrderItemMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbOrderItemMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com/store/mapper/TbOrderMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbOrderMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com/store/mapper/TbPayLogMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbPayLogMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com/store/mapper/TbProvincesMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbProvincesMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com/store/mapper/TbSellerMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbSellerMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com/store/mapper/TbSpecificationMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbSpecificationMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com/store/mapper/TbSpecificationOptionMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbSpecificationOptionMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com/store/mapper/TbTypeTemplateMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbTypeTemplateMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com/store/mapper/TbUserMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbUserMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/target/classes/spring/springmvc.xml" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/target/classes/spring/springmvc.xml" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/pom.xml" afterPath="$PROJECT_DIR$/store-parent/store-pojo/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/store-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/store-pojo-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/pom.xml" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/BrandService.java" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/BrandService.java" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/target/classes/com/store/service/BrandService.class" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/target/classes/com/store/service/BrandService.class" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/target/store-sellergoods-interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/target/store-sellergoods-interface-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-service/pom.xml" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/BrandServiceImpl.java" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/BrandServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/resources/spring/applicationContext-service.xml" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/resources/spring/applicationContext-service.xml" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-service/store-sellergoods-service.iml" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/store-sellergoods-service.iml" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/classes/com/store/service/impl/BrandServiceImpl.class" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/classes/com/store/service/impl/BrandServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/classes/spring/applicationContext-service.xml" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/classes/spring/applicationContext-service.xml" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/store-sellergoods-service-1.0-SNAPSHOT.jar" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/store-parent/target/" />
     <ignored path="$PROJECT_DIR$/store-parent/store-common/target/" />
@@ -178,13 +550,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BrandServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/BrandServiceImpl.java">
+      <file leaf-file-name="brand.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/brand.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="358">
+              <caret line="167" column="28" lean-forward="false" selection-start-line="167" selection-start-column="28" selection-end-line="167" selection-end-column="28" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -194,109 +566,52 @@
         <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/BrandController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
-              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#747#748#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
+                <element signature="e#1170#1171#0" expanded="true" />
+                <element signature="e#1217#1218#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="83" column="51" lean-forward="false" selection-start-line="83" selection-start-column="51" selection-end-line="83" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbBrandMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbBrandMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbBrandExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbBrandExample.java">
+      <file leaf-file-name="TbBrand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbBrand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="222">
-              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TbBrandMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbBrandMapper.xml">
+      <file leaf-file-name="BrandService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/BrandService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="173" column="11" lean-forward="true" selection-start-line="173" selection-start-column="11" selection-end-line="173" selection-end-column="11" />
-              <folding>
-                <marker date="1541043822261" expanded="true" signature="3369:3472" ph="select from tb_brand" />
-                <marker date="1541043822261" expanded="true" signature="3556:3613" ph="delete from tb_brand... " />
-                <marker date="1541043822261" expanded="true" signature="3709:3729" ph="delete from tb_brand... " />
-                <marker date="1541043822261" expanded="true" signature="3902:4051" ph="insert into tb_brand... " />
-                <marker date="1541043822261" expanded="true" signature="4845:4874" ph="select count... tb_brand" />
-                <marker date="1541043822261" expanded="true" signature="5562:5722" ph="update tb_brand... " />
-                <marker date="1541043822261" expanded="true" signature="5926:6186" ph="update tb_brand... " />
-                <marker date="1541043822261" expanded="true" signature="6278:6420" ph="update tb_brand... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbAddressExample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbAddressExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-185">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="247">
+              <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TbItemMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbItemMapper.xml">
+      <file leaf-file-name="BrandServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/BrandServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-333">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1541043822683" expanded="true" signature="5016:5118" ph="select from tb_item" />
-                <marker date="1541043822683" expanded="true" signature="5202:5258" ph="delete from tb_item... " />
-                <marker date="1541043822683" expanded="true" signature="5353:5372" ph="delete from tb_item... " />
-                <marker date="1541043822683" expanded="true" signature="5544:6574" ph="insert into tb_item... " />
-                <marker date="1541043822683" expanded="true" signature="10389:10417" ph="select count... tb_item" />
-                <marker date="1541043822683" expanded="true" signature="13315:14552" ph="update tb_item... " />
-                <marker date="1541043822683" expanded="true" signature="14755:16945" ph="update tb_item... " />
-                <marker date="1541043822683" expanded="true" signature="17036:18115" ph="update tb_item... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbAddressMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbAddressMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="321">
+              <caret line="68" column="32" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TbAddressMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbAddressMapper.xml">
+      <file leaf-file-name="StringUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store-parent/store-common/src/main/java/common/StringUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="200" column="2" lean-forward="false" selection-start-line="200" selection-start-column="2" selection-end-line="200" selection-end-column="2" />
+            <state relative-caret-position="370">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -308,6 +623,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -328,10 +644,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/spring/applicationContext-dao.xml" />
-        <option value="$PROJECT_DIR$/store-parent/store-dao/pom.xml" />
-        <option value="$PROJECT_DIR$/store-parent/store-sellergoods-interface/pom.xml" />
-        <option value="$PROJECT_DIR$/store-parent/store-sellergoods-service/pom.xml" />
         <option value="$PROJECT_DIR$/store-parent/store-shop-web/pom.xml" />
         <option value="$PROJECT_DIR$/store-parent/store-manager-web/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/store-parent/store-shop-web/web/WEB-INF/web.xml" />
@@ -345,12 +657,26 @@
         <option value="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbItemCatMapper.java" />
         <option value="$PROJECT_DIR$/generator1/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbBrand.java" />
-        <option value="$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/BrandService.java" />
         <option value="$PROJECT_DIR$/store-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/store-parent/store-manager-web/web/admin/brand.html" />
+        <option value="$PROJECT_DIR$/store-parent/store-sellergoods-service/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/store-parent/store-manager-web/pom.xml" />
-        <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/BrandController.java" />
+        <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/store-parent/store-sellergoods-service/web/index.html" />
+        <option value="$PROJECT_DIR$/store-parent/store-sellergoods-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/store-parent/store-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/properties/db.properties" />
+        <option value="$PROJECT_DIR$/store-parent/store-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/spring/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/entity/PageResult.java" />
+        <option value="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/entity/Result.java" />
+        <option value="$PROJECT_DIR$/store-parent/store-sellergoods-service/pom.xml" />
         <option value="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/BrandServiceImpl.java" />
+        <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/BrandController.java" />
+        <option value="$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/BrandService.java" />
+        <option value="$PROJECT_DIR$/store-parent/store-common/src/main/java/common/StringUtils.java" />
+        <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/brand.html" />
       </list>
     </option>
   </component>
@@ -370,6 +696,24 @@
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="store-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="store-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="store-dao" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="store-dao" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="store-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -410,6 +754,7 @@
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -420,13 +765,88 @@
             <path>
               <item name="store" type="b2602c69:ProjectViewProjectNode" />
               <item name="store-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="store-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="store-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="store" type="b2602c69:ProjectViewProjectNode" />
               <item name="store-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="store-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="store-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-manager-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="store" type="b2602c69:ProjectViewProjectNode" />
@@ -469,12 +889,43 @@
               <item name="store-pojo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="store" type="b2602c69:ProjectViewProjectNode" />
               <item name="store-parent" type="462c0819:PsiDirectoryNode" />
               <item name="store-sellergoods-interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-sellergoods-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-sellergoods-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-sellergoods-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-sellergoods-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="store" type="b2602c69:ProjectViewProjectNode" />
@@ -508,22 +959,13 @@
               <item name="store-sellergoods-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="store-sellergoods-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -531,22 +973,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/generator1/lib/ojdbc14.jar!/" />
+    <property name="last_opened_file_path" value="E:/百度云下载/品优购/代码/品优购系统开发代码/day-02" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEACODE\store\store-parent\store-sellergoods-service\src\main\resources\spring" />
+      <recent name="E:\IDEACODE\store\store-parent\store-manager-web\src\main" />
+      <recent name="E:\IDEACODE\store\store-parent\store-sellergoods-service\src\main" />
+      <recent name="E:\IDEACODE\store\store-parent\store-manager-web\web" />
       <recent name="E:\IDEACODE\store\store-parent\store-dao\src\main\resources" />
-      <recent name="E:\IDEACODE\store\store-parent\store-dao\src\main\java\com\store" />
-      <recent name="E:\IDEACODE\store\store-parent\store-pojo\src\main\java\com\store" />
-      <recent name="E:\IDEACODE\store\store-parent\store-pojo\src\main\resources" />
-      <recent name="E:\IDEACODE\store\store-parent\store-pojo\src\main\java\com\store\mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -561,7 +1004,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Maven.store-manager-web">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -614,6 +1057,52 @@
       <module name="generator" />
       <envs />
     </configuration>
+    <configuration name="store-manager-web" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/store-parent/store-manager-web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="store-sellergoods-service" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/store-parent/store-sellergoods-service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -654,6 +1143,10 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Maven.store-manager-web" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.store-sellergoods-service" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -671,12 +1164,16 @@
       <workItem from="1540985375830" duration="308000" />
       <workItem from="1540985715434" duration="9255000" />
       <workItem from="1541043042796" duration="3631000" />
-      <workItem from="1541054411742" duration="2448000" />
+      <workItem from="1541054411742" duration="4291000" />
+      <workItem from="1541062036113" duration="566000" />
+      <workItem from="1541120592869" duration="5920000" />
+      <workItem from="1541210882193" duration="11089000" />
+      <workItem from="1541291747291" duration="10645000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15642000" />
+    <option name="totallyTimeSpent" value="45705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -691,14 +1188,15 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.68204284" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5733114" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26096824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19591528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -711,7 +1209,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -751,53 +1248,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com.store/mapper/TbItemMapper.java" />
-    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com.store/mapper/TbTypeTemplateMapper.java" />
-    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com.store/mapper/TbBrandMapper.java" />
-    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com.store/mapper/TbPayLogMapper.java" />
-    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com.store/mapper/TbOrderMapper.java" />
-    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com.store/mapper/TbSpecificationMapper.java" />
-    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com.store/mapper/TbSellerMapper.java" />
-    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com.store/mapper/TbAddressMapper.java" />
-    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbTypeTemplateMapper.java" />
-    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbAreasMapper.java" />
-    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbAddressMapper.java" />
-    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbItemMapper.java" />
-    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbContentCategoryMapper.java" />
-    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbContentMapper.java" />
-    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbProvincesMapper.java" />
-    <entry file="file://$PROJECT_DIR$/generator1/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="39" column="47" lean-forward="false" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/resources/com/store/mapper/TbItemMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbUserMapper.java" />
-    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbItemCatMapper.java" />
-    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/mapper/TbSpecificationOptionMapper.java" />
-    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbFreightTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbTypeTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +1259,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,7 +1266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -823,7 +1275,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -832,105 +1283,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbBrand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-234">
-          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-222">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/BrandService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator1/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbAddressMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbBrandMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbSpecificationOptionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbContentCategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-878">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2886">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/generator1/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbAddressMapper.java" />
+    <entry file="file://$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbBrandMapper.java" />
+    <entry file="file://$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbSpecificationOptionMapper.java" />
+    <entry file="file://$PROJECT_DIR$/generator1/src/main/java/com/store/mapper/TbContentCategoryMapper.java" />
     <entry file="file://$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbItemMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -938,16 +1302,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-333">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1541043822683" expanded="true" signature="5016:5118" ph="select from tb_item" />
-            <marker date="1541043822683" expanded="true" signature="5202:5258" ph="delete from tb_item... " />
-            <marker date="1541043822683" expanded="true" signature="5353:5372" ph="delete from tb_item... " />
-            <marker date="1541043822683" expanded="true" signature="5544:6574" ph="insert into tb_item... " />
-            <marker date="1541043822683" expanded="true" signature="10389:10417" ph="select count... tb_item" />
-            <marker date="1541043822683" expanded="true" signature="13315:14552" ph="update tb_item... " />
-            <marker date="1541043822683" expanded="true" signature="14755:16945" ph="update tb_item... " />
-            <marker date="1541043822683" expanded="true" signature="17036:18115" ph="update tb_item... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -955,7 +1309,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,60 +1316,181 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="200" column="2" lean-forward="false" selection-start-line="200" selection-start-column="2" selection-end-line="200" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbAddressExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2849">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/web/admin/home.html" />
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/web/login.html" />
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/web/admin/brand.html" />
     <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="83" column="51" lean-forward="false" selection-start-line="83" selection-start-column="51" selection-end-line="83" selection-end-column="51" />
+        <state relative-caret-position="-2849">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/BrandController.java">
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/resources/spring/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="962">
+          <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-service/web/index.html" />
+    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/web/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-service/web/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/store-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7708">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/pages/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-dao/store-dao.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-555">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-dao/src/main/resources/properties/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/resources/spring/applicationContext-dao.xml" />
+    <entry file="file://$PROJECT_DIR$/store-parent/store-dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-dao/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/4.0.0/pagehelper-4.0.0.jar!/com/github/pagehelper/Page.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="53" column="29" lean-forward="false" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/entity/PageResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/entity/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="false" />
+            <element signature="e#353#354#0" expanded="false" />
+            <element signature="e#400#401#0" expanded="false" />
+            <element signature="e#438#439#0" expanded="false" />
+            <element signature="e#472#473#0" expanded="false" />
+            <element signature="e#502#503#0" expanded="false" />
+            <element signature="e#548#549#0" expanded="false" />
+            <element signature="e#586#587#0" expanded="false" />
+            <element signature="e#644#645#0" expanded="false" />
+            <element signature="e#691#692#0" expanded="false" />
+            <element signature="e#745#746#0" expanded="false" />
+            <element signature="e#792#793#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-common/src/main/java/common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="95" column="36" lean-forward="false" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbBrandExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/BrandServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#11043#11044#0" expanded="false" />
+            <element signature="e#11095#11096#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbBrandMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbBrandMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="173" column="11" lean-forward="true" selection-start-line="173" selection-start-column="11" selection-end-line="173" selection-end-column="11" />
+        <state relative-caret-position="444">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
           <folding>
             <marker date="1541043822261" expanded="true" signature="3369:3472" ph="select from tb_brand" />
             <marker date="1541043822261" expanded="true" signature="3556:3613" ph="delete from tb_brand... " />
@@ -1030,11 +1504,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbAddressExample.java">
+    <entry file="file://$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbBrandMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-185">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="193">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/BrandService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/BrandServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="68" column="32" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-common/src/main/java/common/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/BrandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding>
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbBrand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/brand.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="167" column="28" lean-forward="false" selection-start-line="167" selection-start-column="28" selection-end-line="167" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1044,10 +1573,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>store-manager-web:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1090,7 +1621,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>generator</last-edited>
+          <last-edited>Spring|store-dao</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

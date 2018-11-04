@@ -2,6 +2,7 @@ com\store\pojo\TbAddressExample.class
 com\store\pojo\TbUserExample$Criterion.class
 com\store\pojo\TbAddress.class
 com\store\pojo\TbGoodsExample.class
+entity\Result.class
 com\store\pojo\TbPayLogExample.class
 com\store\pojo\TbContentCategoryExample$Criteria.class
 com\store\pojo\TbContentCategoryExample.class
@@ -91,6 +92,7 @@ com\store\pojo\TbCitiesExample.class
 com\store\pojo\TbPayLogExample$Criteria.class
 com\store\pojo\TbItem.class
 com\store\pojo\TbOrderItemExample$GeneratedCriteria.class
+entity\PageResult.class
 com\store\pojo\TbUserExample.class
 com\store\pojo\TbOrderItemExample.class
 com\store\pojo\TbAddressExample$Criterion.class
