@@ -1,13 +1,14 @@
 package com.store.service.impl;
 import java.util.List;
+
+import com.store.pojo.TbGoodsExample;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.store.mapper.TbGoodsMapper;
 import com.store.pojo.TbGoods;
-import com.pinyougou.pojo.TbGoodsExample;
-import com.pinyougou.pojo.TbGoodsExample.Criteria;
+
 import com.store.service.GoodsService;
 
 import entity.PageResult;
@@ -84,7 +85,7 @@ public class GoodsServiceImpl implements GoodsService {
 		PageHelper.startPage(pageNum, pageSize);
 		
 		TbGoodsExample example=new TbGoodsExample();
-		Criteria criteria = example.createCriteria();
+		TbGoodsExample.Criteria criteria = example.createCriteria();
 		
 		if(goods!=null){			
 						if(goods.getSellerId()!=null && goods.getSellerId().length()>0){

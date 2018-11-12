@@ -3,6 +3,20 @@
     <output-path>$PROJECT_DIR$/store-parent/store-sellergoods-service/target</output-path>
     <root id="archive" name="store-sellergoods-service-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="store-sellergoods-service:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="Maven: com.alibaba:jconsole:1.8.0" module-name="store-sellergoods-service" />
+          <element id="library" level="module" name="Maven: com.alibaba:tools:1.8.0" module-name="store-sellergoods-service" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.2" />
+        </element>
+        <element id="directory" name="classes">
+          <element id="module-output" name="store-shop-web" />
+          <element id="module-output" name="store-manager-web" />
+          <element id="module-output" name="store-parent" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="store-shop-web/web/Web" />
+      <element id="javaee-facet-resources" facet="store-manager-web/web/Web" />
     </root>
   </artifact>
 </component>

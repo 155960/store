@@ -5,11 +5,11 @@
       <element id="artifact" artifact-name="store-manager-web:war exploded" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
+          <element id="module-output" name="store-shop-web" />
           <element id="module-output" name="store-sellergoods-service" />
           <element id="module-output" name="store-dao" />
           <element id="module-output" name="store-common" />
           <element id="module-output" name="store-parent" />
-          <element id="module-output" name="store-shop-web" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:4.0.0" />
@@ -24,8 +24,8 @@
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.2" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="store-sellergoods-service/web/Web" />
       <element id="javaee-facet-resources" facet="store-shop-web/web/Web" />
+      <element id="javaee-facet-resources" facet="store-sellergoods-service/web/Web" />
     </root>
   </artifact>
 </component>

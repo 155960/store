@@ -1,1 +1,9 @@
+com\store\manager\controller\GoodsDescController.class
 com\store\manager\controller\BrandController.class
+com\store\manager\controller\SpecificationOptionController.class
+com\store\manager\controller\ItemController.class
+com\store\manager\controller\SellerController.class
+com\store\manager\controller\TypeTemplateController.class
+com\store\manager\controller\SpecificationController.class
+com\store\manager\controller\ItemCatController.class
+com\store\manager\controller\GoodsController.class

@@ -1,4 +1,4 @@
-package com.store.controller;
+package com.store.manager.controller;
 import java.util.List;
 
 import org.springframework.web.bind.annotation.RequestBody;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.store.pojo.TbTypeTemplate;
-import com.store.[path_3].service.TypeTemplateService;
+import com.store.service.TypeTemplateService;
 
 import entity.PageResult;
 import entity.Result;
@@ -101,7 +101,7 @@ public class TypeTemplateController {
 	
 		/**
 	 * 查询+分页
-	 * @param brand
+	 *
 	 * @param page
 	 * @param rows
 	 * @return

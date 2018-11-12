@@ -18,6 +18,7 @@
 	<link rel="stylesheet" href="../plugins/angularjs/pagination.css">
 
 	<script type="text/javascript">
+
 		var app=angular.module("store",['pagination']);
 		app.controller("brandController",function ($scope,$http) {
 			$scope.findAll=function () {
@@ -29,7 +30,7 @@
             $scope.paginationConf={
 			    currentPage:1,
 				totalItems:10,
-				itemPerPage:10,
+				itemsPerPage:10,
 				perPageOptions:[10,20,30,40,50],
 				//分页插件加载时也会触发
 				onChange:function () {
@@ -39,7 +40,7 @@
 
 			$scope.reloadList=function () {
                 $scope.search($scope.paginationConf.currentPage,
-                    $scope.paginationConf.itemPerPage);
+                    $scope.paginationConf.itemsPerPage);
             }
 
 			$scope.findPage=function (page,pageSize) {
@@ -49,20 +50,20 @@
                 });
             }
 
-            $scope.save=function () {
-			    var methodName="add";
-			    if($scope.entity.id!=null){
-			        methodName='update';
-				}
-				$http.post('../brand/'+methodName+'.do',$scope.entity).success(
-				    function (response) {
-						if(response.success){
-						    $scope.reloadList();
-						}else{
-						    alert(response.message);
-						}
+            $scope.save=function(){
+                var methodName='add';//方法名
+                if($scope.entity.id!=null){
+                    methodName='update';
+                }
+                $http.post('../brand/'+methodName +'.do',$scope.entity).success(
+                    function(response){
+                        if(response.success){
+                            $scope.reloadList();//刷新
+                        }else{
+                            alert(response.message);
+                        }
                     }
-				);
+                );
             }
 
             $scope.findOne=function (id) {
@@ -74,9 +75,9 @@
             }
 
             $scope.selectIds=[];
-			$scope.updateSelection=function ($event,id) {
+			$scope.updateSelect=function ($event,id) {
 				if($event.target.checked){
-				    $scope.selectIds.put(id);
+				    $scope.selectIds.push(id);
 				}
 			    else{
 				    var index=$scope.selectIds.indexOf(id);
@@ -88,6 +89,7 @@
 				    function (response) {
 						if(response.success){
 						    $scope.reloadList();
+						    $scope.selectIds=[];
 						}else{
 						    alert(response.message);
 						}
@@ -98,6 +100,7 @@
             $scope.searchEntity={};
             $scope.search=function (page,pageSize) {
                 $http.post('../brand/search.do?page='+page+'&size='+pageSize,$scope.searchEntity).success(function (response) {
+
                     $scope.list=response.rows;
                     $scope.paginationConf.totalItems=response.total;
                 });
@@ -141,20 +144,20 @@
 			                          <tr>
 			                              <th class="" style="padding-right:0px">
 			                                  <input id="selall" type="checkbox" class="icheckbox_square-blue">
-			                              </th> 
+			                              </th>
 										  <th class="sorting_asc">品牌ID</th>
-									      <th class="sorting">品牌名称</th>									      
-									      <th class="sorting">品牌首字母</th>									     				
+									      <th class="sorting">品牌名称</th>
+									      <th class="sorting">品牌首字母</th>
 					                      <th class="text-center">操作</th>
 			                          </tr>
 			                      </thead>
 			                      <tbody>
 			                          <tr ng-repeat="entity in list">
-			                              <td><input  type="checkbox" ng-click="updateSelection($event,entity.id)"></td>
+			                              <td><input  type="checkbox" ng-click="updateSelect($event,entity.id)"></td>
 				                          <td>{{entity.id}}</td>
 									      <td>{{entity.name}}</td>
 		                                  <td>{{entity.firstChar}}</td>
-		                                  <td class="text-center">                                           
+		                                  <td class="text-center">
 		                                 	  <button type="button" class="btn bg-olive btn-xs" data-toggle="modal" data-target="#editModal"  ng-click="findOne(entity.id)">修改</button>
 		                                  </td>
 			                          </tr>
@@ -162,19 +165,21 @@
 			                      </tbody>
 			                  </table>
 
+
+
 							<tm-pagination conf="paginationConf"></tm-pagination>
-			                  <!--数据列表/-->                        
-							  
-							 
+			                  <!--数据列表/-->
+
+
                         </div>
                         <!-- 数据表格 /-->
-                        
-                        
-                        
-                        
+
+
+
+
                      </div>
                     <!-- /.box-body -->
-         
+
 <!-- 编辑窗口 -->
 <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" >
@@ -183,25 +188,25 @@
 			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 			<h3 id="myModalLabel">品牌编辑</h3>
 		</div>
-		<div class="modal-body">		
+		<div class="modal-body">
 			<table class="table table-bordered table-striped"  width="800px">
 		      	<tr>
 		      		<td>品牌名称</td>
 		      		<td><input  class="form-control" placeholder="品牌名称" ng-model="entity.name">  </td>
-		      	</tr>		      	
+		      	</tr>
 		      	<tr>
 		      		<td>首字母</td>
-		      		<td><input  class="form-control" placeholder="首字母",ng-model="entity.firstChar">  </td>
-		      	</tr>		      	
-			 </table>				
+		      		<td><input  class="form-control" placeholder="首字母" ng-model="entity.firstChar">  </td>
+		      	</tr>
+			 </table>
 		</div>
-		<div class="modal-footer">						
+		<div class="modal-footer">
 			<button class="btn btn-success" data-dismiss="modal" aria-hidden="true" ng-click="save()">保存</button>
 			<button class="btn btn-default" data-dismiss="modal" aria-hidden="true">关闭</button>
 		</div>
 	  </div>
 	</div>
 </div>
-   
+
 </body>
 </html>

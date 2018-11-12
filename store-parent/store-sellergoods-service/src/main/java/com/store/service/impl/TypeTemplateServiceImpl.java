@@ -1,13 +1,14 @@
 package com.store.service.impl;
 import java.util.List;
+
+import com.store.pojo.TbTypeTemplateExample;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.store.mapper.TbTypeTemplateMapper;
 import com.store.pojo.TbTypeTemplate;
-import com.pinyougou.pojo.TbTypeTemplateExample;
-import com.pinyougou.pojo.TbTypeTemplateExample.Criteria;
+
 import com.store.service.TypeTemplateService;
 
 import entity.PageResult;
@@ -84,7 +85,7 @@ public class TypeTemplateServiceImpl implements TypeTemplateService {
 		PageHelper.startPage(pageNum, pageSize);
 		
 		TbTypeTemplateExample example=new TbTypeTemplateExample();
-		Criteria criteria = example.createCriteria();
+		TbTypeTemplateExample.Criteria criteria = example.createCriteria();
 		
 		if(typeTemplate!=null){			
 						if(typeTemplate.getName()!=null && typeTemplate.getName().length()>0){

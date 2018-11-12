@@ -5,6 +5,11 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="store-manager-web" />
+          <element id="module-output" name="store-sellergoods-service" />
+          <element id="module-output" name="store-dao" />
+          <element id="module-output" name="store-common" />
+          <element id="module-output" name="store-parent" />
+          <element id="module-output" name="store-shop-web" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.4.RELEASE" />
@@ -43,12 +48,24 @@
           <element id="archive" name="store-pojo-1.0-SNAPSHOT.jar">
             <element id="module-output" name="store-pojo" />
           </element>
+          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:4.0.0" />
+          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9.1" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.2.8" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.2.2" />
+          <element id="library" level="project" name="Maven: com.github.miemiedev:mybatis-paginator:1.2.15" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.32" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.9" />
+          <element id="library" level="module" name="Maven: com.alibaba:jconsole:1.8.0" module-name="store-sellergoods-service" />
+          <element id="library" level="module" name="Maven: com.alibaba:tools:1.8.0" module-name="store-sellergoods-service" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.2" />
         </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="store-manager-web/web/Web" />
+      <element id="javaee-facet-resources" facet="store-sellergoods-service/web/Web" />
+      <element id="javaee-facet-resources" facet="store-shop-web/web/Web" />
     </root>
   </artifact>
 </component>

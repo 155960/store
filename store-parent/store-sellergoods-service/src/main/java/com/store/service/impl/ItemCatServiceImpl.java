@@ -1,13 +1,14 @@
 package com.store.service.impl;
 import java.util.List;
+
+import com.store.pojo.TbItemCatExample;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.store.mapper.TbItemCatMapper;
 import com.store.pojo.TbItemCat;
-import com.pinyougou.pojo.TbItemCatExample;
-import com.pinyougou.pojo.TbItemCatExample.Criteria;
+
 import com.store.service.ItemCatService;
 
 import entity.PageResult;
@@ -84,7 +85,7 @@ public class ItemCatServiceImpl implements ItemCatService {
 		PageHelper.startPage(pageNum, pageSize);
 		
 		TbItemCatExample example=new TbItemCatExample();
-		Criteria criteria = example.createCriteria();
+		TbItemCatExample.Criteria criteria = example.createCriteria();
 		
 		if(itemCat!=null){			
 						if(itemCat.getName()!=null && itemCat.getName().length()>0){

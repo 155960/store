@@ -1,13 +1,14 @@
 package com.store.service.impl;
 import java.util.List;
+
+import com.store.pojo.TbSellerExample;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.store.mapper.TbSellerMapper;
 import com.store.pojo.TbSeller;
-import com.pinyougou.pojo.TbSellerExample;
-import com.pinyougou.pojo.TbSellerExample.Criteria;
+
 import com.store.service.SellerService;
 
 import entity.PageResult;
@@ -64,17 +65,17 @@ public class SellerServiceImpl implements SellerService {
 	 * @return
 	 */
 	@Override
-	public TbSeller findOne(Long id){
-		return sellerMapper.selectByPrimaryKey(id);
+	public TbSeller findOne(String id){
+		return sellerMapper.selectByPrimaryKey(id+"");
 	}
 
 	/**
 	 * 批量删除
 	 */
 	@Override
-	public void delete(Long[] ids) {
-		for(Long id:ids){
-			sellerMapper.deleteByPrimaryKey(id);
+	public void delete(String[] ids) {
+		for(String id:ids){
+			sellerMapper.deleteByPrimaryKey(id+"");
 		}		
 	}
 	
@@ -84,7 +85,7 @@ public class SellerServiceImpl implements SellerService {
 		PageHelper.startPage(pageNum, pageSize);
 		
 		TbSellerExample example=new TbSellerExample();
-		Criteria criteria = example.createCriteria();
+		TbSellerExample.Criteria criteria = example.createCriteria();
 		
 		if(seller!=null){			
 						if(seller.getSellerId()!=null && seller.getSellerId().length()>0){

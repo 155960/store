@@ -1,6 +1,8 @@
 package com.store.pojo;
 
-public class TbContentCategory {
+import java.io.Serializable;
+
+public class TbContentCategory implements Serializable {
     private Long id;
 
     private String name;

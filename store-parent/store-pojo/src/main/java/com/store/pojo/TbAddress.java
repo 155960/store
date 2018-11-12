@@ -1,8 +1,9 @@
 package com.store.pojo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class TbAddress {
+public class TbAddress implements Serializable {
     private Long id;
 
     private String userId;

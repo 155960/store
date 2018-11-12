@@ -1,1 +1,9 @@
+com\store\service\impl\GoodsDescServiceImpl.class
+com\store\service\impl\TypeTemplateServiceImpl.class
 com\store\service\impl\BrandServiceImpl.class
+com\store\service\impl\SpecificationServiceImpl.class
+com\store\service\impl\ItemCatServiceImpl.class
+com\store\service\impl\ItemServiceImpl.class
+com\store\service\impl\GoodsServiceImpl.class
+com\store\service\impl\SpecificationOptionServiceImpl.class
+com\store\service\impl\SellerServiceImpl.class

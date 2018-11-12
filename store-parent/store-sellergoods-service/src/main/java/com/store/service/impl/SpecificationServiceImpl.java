@@ -1,13 +1,13 @@
 package com.store.service.impl;
 import java.util.List;
+
+import com.store.pojo.TbSpecificationExample;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.store.mapper.TbSpecificationMapper;
 import com.store.pojo.TbSpecification;
-import com.pinyougou.pojo.TbSpecificationExample;
-import com.pinyougou.pojo.TbSpecificationExample.Criteria;
 import com.store.service.SpecificationService;
 
 import entity.PageResult;
@@ -84,7 +84,7 @@ public class SpecificationServiceImpl implements SpecificationService {
 		PageHelper.startPage(pageNum, pageSize);
 		
 		TbSpecificationExample example=new TbSpecificationExample();
-		Criteria criteria = example.createCriteria();
+		TbSpecificationExample.Criteria criteria = example.createCriteria();
 		
 		if(specification!=null){			
 						if(specification.getSpecName()!=null && specification.getSpecName().length()>0){
