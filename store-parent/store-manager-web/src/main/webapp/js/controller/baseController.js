@@ -40,6 +40,7 @@ app.controller('baseController' ,function($scope){
             if(i>0){
                 value+=",";
             }
+            //key不是变量可直接".",变量则只能数组形式
             value +=json[i][key];
         }
 

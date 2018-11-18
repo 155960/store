@@ -46,6 +46,7 @@ com\store\pojo\TbSellerExample$Criterion.class
 com\store\pojo\TbSellerExample$GeneratedCriteria.class
 com\store\pojo\TbContentCategoryExample$GeneratedCriteria.class
 com\store\pojo\TbCitiesExample$GeneratedCriteria.class
+com\store\pojogroup\Specification.class
 com\store\pojo\TbSellerExample$Criteria.class
 com\store\pojo\TbContentCategory.class
 com\store\pojo\TbGoodsDescExample.class

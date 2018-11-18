@@ -4,6 +4,7 @@ import com.store.pojo.TbBrand;
 import entity.PageResult;
 
 import java.util.List;
+import java.util.Map;
 
 public interface BrandService {
     public List<TbBrand> findAll();
@@ -45,4 +46,6 @@ public interface BrandService {
      * @return
      */
     public PageResult findPage(TbBrand brand,int pageNum,int pageSize);
+
+    public List<Map> selectOptionList();
 }

@@ -2,114 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf27f7b1-c30a-4dc3-86c7-489875e36e3a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/GoodsController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/GoodsDescController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/ItemCatController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/ItemController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/SellerController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/SpecificationController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/SpecificationOptionController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/TypeTemplateController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/base-pagination.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/base.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/baseController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/goodsController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/goodsDescController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/itemCatController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/itemController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/sellerController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/specificationController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/specificationOptionController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/typeTemplateController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/service/goodsDescService.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/service/goodsService.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/service/itemCatService.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/service/itemService.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/service/sellerService.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/service/specificationOptionService.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/service/specificationService.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/service/typeTemplateService.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/GoodsDescService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/GoodsService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/ItemCatService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/ItemService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/SellerService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/SpecificationOptionService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/SpecificationService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/TypeTemplateService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/GoodsDescServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/GoodsServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/ItemCatServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/ItemServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/SellerServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/SpecificationOptionServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/SpecificationServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/TypeTemplateServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/angular-select2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/brandController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/service/brandService.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojogroup/Specification.java" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/store_manager_web_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/store_manager_web_war.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/store_manager_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/store_manager_web_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/store_sellergoods_service_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/store_sellergoods_service_war.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/store_sellergoods_service_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/store_sellergoods_service_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/store-parent/store-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-common/target/store-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/store-parent/store-common/target/store-common-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbBrandMapper.java" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbBrandMapper.java" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbSpecificationMapper.java" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbSpecificationMapper.java" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbBrandMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbBrandMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbSpecificationMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbSpecificationMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-dao/target/classes/com/store/mapper/TbBrandMapper.class" afterPath="$PROJECT_DIR$/store-parent/store-dao/target/classes/com/store/mapper/TbBrandMapper.class" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-dao/target/classes/com/store/mapper/TbBrandMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/target/classes/com/store/mapper/TbBrandMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-dao/target/classes/com/store/mapper/TbSpecificationMapper.class" afterPath="$PROJECT_DIR$/store-parent/store-dao/target/classes/com/store/mapper/TbSpecificationMapper.class" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-dao/target/classes/com/store/mapper/TbSpecificationMapper.xml" afterPath="$PROJECT_DIR$/store-parent/store-dao/target/classes/com/store/mapper/TbSpecificationMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-dao/target/store-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/store-parent/store-dao/target/store-dao-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/BrandController.java" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/BrandController.java" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/SpecificationController.java" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/SpecificationController.java" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/brand.html" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/brand.html" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/specification.html" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/specification.html" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/type_template.html" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/type_template.html" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/base-pagination.js" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/base_pagination.js" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/baseController.js" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/baseController.js" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/specificationController.js" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/specificationController.js" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/typeTemplateController.js" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/typeTemplateController.js" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/service/specificationService.js" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/service/specificationService.js" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/target/classes/com/store/manager/controller/BrandController.class" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/target/classes/com/store/manager/controller/BrandController.class" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/target/classes/com/store/manager/controller/SpecificationController.class" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/target/classes/com/store/manager/controller/SpecificationController.class" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/target/maven-archiver/pom.properties" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT.war" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT/WEB-INF/classes/com/store/manager/controller/BrandController.class" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT/WEB-INF/classes/com/store/manager/controller/BrandController.class" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT/WEB-INF/classes/com/store/manager/controller/SpecificationController.class" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT/WEB-INF/classes/com/store/manager/controller/SpecificationController.class" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT/WEB-INF/lib/store-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT/WEB-INF/lib/store-pojo-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT/WEB-INF/lib/store-sellergoods-interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT/WEB-INF/lib/store-sellergoods-interface-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT/admin/brand.html" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT/admin/brand.html" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT/admin/specification.html" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT/admin/specification.html" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/target/tomcat/logs/access_log.2018-11-04" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/target/tomcat/logs/access_log.2018-11-04" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbAddress.java" afterPath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbAddress.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbAreas.java" afterPath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbAreas.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbCities.java" afterPath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbCities.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbContent.java" afterPath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbContent.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbContentCategory.java" afterPath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbContentCategory.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbFreightTemplate.java" afterPath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbFreightTemplate.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbGoods.java" afterPath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbGoods.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbGoodsDesc.java" afterPath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbGoodsDesc.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbItem.java" afterPath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbItem.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbItemCat.java" afterPath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbItemCat.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbOrder.java" afterPath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbOrder.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbOrderItem.java" afterPath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbOrderItem.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbPayLog.java" afterPath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbPayLog.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbProvinces.java" afterPath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbProvinces.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbSeller.java" afterPath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbSeller.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbSpecification.java" afterPath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbSpecification.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbSpecificationOption.java" afterPath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbSpecificationOption.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbTypeTemplate.java" afterPath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbTypeTemplate.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbUser.java" afterPath="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbUser.java" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbAddress.class" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbAddress.class" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbAreas.class" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbAreas.class" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbCities.class" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbCities.class" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbContent.class" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbContent.class" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbContentCategory.class" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbContentCategory.class" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbFreightTemplate.class" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbFreightTemplate.class" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbGoods.class" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbGoods.class" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbGoodsDesc.class" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbGoodsDesc.class" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbItem.class" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbItem.class" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbItemCat.class" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbItemCat.class" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbOrder.class" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbOrder.class" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbOrderItem.class" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbOrderItem.class" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbPayLog.class" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbPayLog.class" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbProvinces.class" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbProvinces.class" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbSeller.class" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbSeller.class" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbSpecification.class" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbSpecification.class" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbSpecificationOption.class" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbSpecificationOption.class" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbTypeTemplate.class" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbTypeTemplate.class" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbUser.class" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/classes/com/store/pojo/TbUser.class" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT/admin/type_template.html" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT/admin/type_template.html" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT/js/controller/baseController.js" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT/js/controller/baseController.js" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT/js/controller/specificationController.js" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT/js/controller/specificationController.js" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT/js/controller/typeTemplateController.js" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT/js/controller/typeTemplateController.js" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT/js/service/specificationService.js" afterPath="$PROJECT_DIR$/store-parent/store-manager-web/target/store-manager-web-1.0-SNAPSHOT/js/service/specificationService.js" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-pojo/target/store-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/store-parent/store-pojo/target/store-pojo-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/BrandService.java" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/BrandService.java" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/SpecificationService.java" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/SpecificationService.java" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/target/classes/com/store/service/BrandService.class" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/target/classes/com/store/service/BrandService.class" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/target/classes/com/store/service/SpecificationService.class" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/target/classes/com/store/service/SpecificationService.class" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/target/store-sellergoods-interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-interface/target/store-sellergoods-interface-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/BrandServiceImpl.java" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/BrandServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/SpecificationServiceImpl.java" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/SpecificationServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/classes/com/store/service/impl/BrandServiceImpl.class" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/classes/com/store/service/impl/BrandServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/classes/com/store/service/impl/SpecificationServiceImpl.class" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/classes/com/store/service/impl/SpecificationServiceImpl.class" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/maven-archiver/pom.properties" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/store-sellergoods-service-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/store-sellergoods-service-1.0-SNAPSHOT.war" />
-      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/store-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/store-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/store-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/store-common-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/store-sellergoods-service-1.0-SNAPSHOT/WEB-INF/classes/com/store/service/impl/BrandServiceImpl.class" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/store-sellergoods-service-1.0-SNAPSHOT/WEB-INF/classes/com/store/service/impl/BrandServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/store-sellergoods-service-1.0-SNAPSHOT/WEB-INF/classes/com/store/service/impl/SpecificationServiceImpl.class" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/store-sellergoods-service-1.0-SNAPSHOT/WEB-INF/classes/com/store/service/impl/SpecificationServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/store-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/store-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/store-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/store-dao-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/store-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/store-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/store-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/store-pojo-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/store-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/store-sellergoods-interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/store-parent/store-sellergoods-service/target/store-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/store-sellergoods-interface-1.0-SNAPSHOT.jar" />
     </list>
@@ -143,107 +100,113 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SpecificationController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/SpecificationController.java">
+      <file leaf-file-name="type_template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/type_template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+            <state relative-caret-position="-971">
+              <caret line="96" column="168" lean-forward="false" selection-start-line="96" selection-start-column="168" selection-end-line="96" selection-end-column="168" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TbOrder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbOrder.java">
+      <file leaf-file-name="typeTemplateService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/service/typeTemplateService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TbOrderItem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbOrderItem.java">
+      <file leaf-file-name="typeTemplateController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/typeTemplateController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+            <state relative-caret-position="139">
+              <caret line="99" column="28" lean-forward="false" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/base.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base_pagination.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/base_pagination.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpecificationServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/SpecificationServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#4251#4252#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TbPayLog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbPayLog.java">
+      <file leaf-file-name="baseController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/baseController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+            <state relative-caret-position="1554">
+              <caret line="42" column="37" lean-forward="false" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TbSpecificationMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbSpecificationMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="168" column="15" lean-forward="false" selection-start-line="168" selection-start-column="15" selection-end-line="168" selection-end-column="15" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1542524592835" expanded="true" signature="3328:3439" ph="select from tb_specification" />
+                <marker date="1542524592835" expanded="true" signature="3523:3588" ph="delete from tb_specification... " />
+                <marker date="1542524592835" expanded="true" signature="3692:3720" ph="delete from tb_specification... " />
+                <marker date="1542524592835" expanded="true" signature="4001:4110" ph="insert into tb_specification... " />
+                <marker date="1542524592835" expanded="true" signature="4788:4825" ph="select count... tb_specification" />
+                <marker date="1542524592835" expanded="true" signature="5419:5539" ph="update tb_specification... " />
+                <marker date="1542524592835" expanded="true" signature="5751:5931" ph="update tb_specification... " />
+                <marker date="1542524592835" expanded="true" signature="6031:6140" ph="update tb_specification... " />
+                <marker date="1542524592835" expanded="true" signature="6218:6268" ph="SELECT id sp... tb_specification" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TbProvinces.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbProvinces.java">
+      <file leaf-file-name="TbBrandMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbBrandMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbSeller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbSeller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbTypeTemplateExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbTypeTemplateExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbSpecificationOption.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbSpecificationOption.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="4" column="58" lean-forward="false" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbTypeTemplate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbTypeTemplate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+            <state relative-caret-position="274">
+              <caret line="181" column="2" lean-forward="false" selection-start-line="181" selection-start-column="2" selection-end-line="181" selection-end-column="2" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1542437475002" expanded="true" signature="3369:3472" ph="select from tb_brand" />
+                <marker date="1542437475002" expanded="true" signature="3556:3613" ph="delete from tb_brand... " />
+                <marker date="1542437475002" expanded="true" signature="3709:3729" ph="delete from tb_brand... " />
+                <marker date="1542437475002" expanded="true" signature="3902:4051" ph="insert into tb_brand... " />
+                <marker date="1542437475002" expanded="true" signature="4845:4874" ph="select count... tb_brand" />
+                <marker date="1542437475002" expanded="true" signature="5562:5722" ph="update tb_brand... " />
+                <marker date="1542437475002" expanded="true" signature="5926:6186" ph="update tb_brand... " />
+                <marker date="1542437475002" expanded="true" signature="6278:6420" ph="update tb_brand... " />
+                <marker date="1542437475002" expanded="true" signature="6498:6535" ph="SELECT id ,n... tb_brand" />
               </folding>
             </state>
           </provider>
@@ -256,8 +219,8 @@
       <list>
         <option value="Interface" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -277,24 +240,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/spring/applicationContext-dao.xml" />
-        <option value="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/entity/PageResult.java" />
-        <option value="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/entity/Result.java" />
-        <option value="$PROJECT_DIR$/store-parent/store-sellergoods-service/pom.xml" />
-        <option value="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/BrandServiceImpl.java" />
-        <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/BrandController.java" />
-        <option value="$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/BrandService.java" />
-        <option value="$PROJECT_DIR$/store-parent/store-common/src/main/java/common/StringUtils.java" />
-        <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/brand.html" />
-        <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/base.js" />
-        <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/base-pagination.js" />
-        <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/baseController.js" />
-        <option value="$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/ItemCatService.java" />
-        <option value="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/SpecificationOptionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/SpecificationServiceImpl.java" />
-        <option value="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/TypeTemplateServiceImpl.java" />
-        <option value="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/GoodsDescServiceImpl.java" />
         <option value="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/GoodsServiceImpl.java" />
         <option value="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/ItemCatServiceImpl.java" />
         <option value="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/ItemServiceImpl.java" />
@@ -307,8 +252,6 @@
         <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/ItemController.java" />
         <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/SpecificationOptionController.java" />
         <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/TypeTemplateController.java" />
-        <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/specification.html" />
-        <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/SpecificationController.java" />
         <option value="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbSpecification.java" />
         <option value="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbAddress.java" />
         <option value="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbAreas.java" />
@@ -328,6 +271,26 @@
         <option value="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbSpecificationOption.java" />
         <option value="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbTypeTemplate.java" />
         <option value="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbUser.java" />
+        <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/specificationController.js" />
+        <option value="$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojogroup/Specification.java" />
+        <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/specification.html" />
+        <option value="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbBrandMapper.xml" />
+        <option value="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbBrandMapper.java" />
+        <option value="$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/BrandService.java" />
+        <option value="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/BrandServiceImpl.java" />
+        <option value="$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbSpecificationMapper.java" />
+        <option value="$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/SpecificationService.java" />
+        <option value="$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/SpecificationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/SpecificationController.java" />
+        <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/service/specificationService.js" />
+        <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/baseController.js" />
+        <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/base-pagination.js" />
+        <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/brand.html" />
+        <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/BrandController.java" />
+        <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/service/brandService.js" />
+        <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/type_template.html" />
+        <option value="$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/typeTemplateController.js" />
+        <option value="$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbSpecificationMapper.xml" />
       </list>
     </option>
   </component>
@@ -378,7 +341,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1370" />
@@ -402,6 +365,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -413,6 +377,148 @@
             <path>
               <item name="store" type="b2602c69:ProjectViewProjectNode" />
               <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-manager-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
               <item name="store-pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -443,7 +549,26 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="pojogroup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="store-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="store" type="b2602c69:ProjectViewProjectNode" />
@@ -515,47 +640,12 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="store-sellergoods-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="store-sellergoods-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="store-sellergoods-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="store-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="store-sellergoods-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -563,7 +653,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -577,9 +667,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\IDEACODE\store\store-parent\store-manager-web\src\main\webapp\js\controller" />
       <recent name="E:\IDEACODE\store\store-parent\store-manager-web\src\main\webapp\js\service" />
+      <recent name="E:\IDEACODE\store\store-parent\store-manager-web\src\main\webapp\js" />
       <recent name="E:\IDEACODE\store\store-parent\store-manager-web\src\main\java\com\store\manager\controller" />
       <recent name="E:\IDEACODE\store\store-parent\store-sellergoods-service\src\main\java\com\store\service\impl" />
-      <recent name="E:\IDEACODE\store\store-parent\store-sellergoods-interface\src\main\java\com\store\service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -761,14 +851,18 @@
       <workItem from="1541291747291" duration="15209000" />
       <workItem from="1541412297267" duration="3926000" />
       <workItem from="1542019892810" duration="4103000" />
+      <workItem from="1542183156896" duration="512000" />
+      <workItem from="1542432129138" duration="6821000" />
+      <workItem from="1542513697663" duration="5442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58298000" />
+    <option name="totallyTimeSpent" value="76344000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -779,12 +873,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6738056" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.67233384" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5733114" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23071104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24205749" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -839,234 +933,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/TypeTemplateServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="87" column="35" lean-forward="false" selection-start-line="87" selection-start-column="35" selection-end-line="87" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/GoodsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-370">
-          <caret line="87" column="28" lean-forward="false" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/ItemCatServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="87" column="29" lean-forward="false" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/ItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="87" column="26" lean-forward="false" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbSellerMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/SellerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/SellerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-482">
-          <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/SpecificationOptionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/SellerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3219">
-          <caret line="103" column="6" lean-forward="false" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/SpecificationOptionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/TypeTemplateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3219">
-          <caret line="103" column="6" lean-forward="false" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/ItemCatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/meta.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/service/goodsService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/GoodsDescController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/specificationController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="1" column="39" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/base-pagination.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="47" lean-forward="false" selection-start-line="0" selection-start-column="47" selection-end-line="0" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/baseController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-974">
-          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/BrandController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/GoodsDescService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/GoodsDescServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1073">
           <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/brand.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6105">
-          <caret line="174" column="38" lean-forward="true" selection-start-line="174" selection-start-column="38" selection-end-line="174" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/specification.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2294">
-          <caret line="74" column="63" lean-forward="false" selection-start-line="74" selection-start-column="63" selection-end-line="74" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1074,17 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/SpecificationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1092,7 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-666">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1100,7 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1108,7 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1116,7 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1124,7 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1132,7 +986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1140,7 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,7 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="4" column="54" lean-forward="false" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1156,9 +1007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="5" column="54" lean-forward="false" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1166,9 +1014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1176,7 +1021,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1184,7 +1028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1192,15 +1035,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojo/TbOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
+        <state relative-caret-position="185">
           <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1208,9 +1049,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1218,9 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1228,7 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1236,7 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1244,7 +1077,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1252,7 +1084,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="4" column="58" lean-forward="false" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1260,7 +1091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1268,17 +1098,241 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-pojo/src/main/java/com/store/pojogroup/Specification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/seller_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/angular-select2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbBrandMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/BrandService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="49" column="40" lean-forward="false" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/BrandServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="82" column="47" lean-forward="false" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/service/specificationOptionService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-dao/src/main/java/com/store/mapper/TbSpecificationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-interface/src/main/java/com/store/service/SpecificationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2146">
+          <caret line="64" column="40" lean-forward="false" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/SpecificationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        <state relative-caret-position="3626">
+          <caret line="117" column="55" lean-forward="false" selection-start-line="117" selection-start-column="55" selection-end-line="117" selection-end-column="55" />
+          <folding>
+            <element signature="e#2479#2480#0" expanded="false" />
+            <element signature="e#2532#2533#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/service/specificationService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1221">
+          <caret line="33" column="65" lean-forward="false" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/TypeTemplateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/specification.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="82" column="81" lean-forward="false" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/specificationController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="87" column="5" lean-forward="false" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/brand.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="31" column="6" lean-forward="false" selection-start-line="30" selection-start-column="35" selection-end-line="31" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/brandController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2442">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/java/com/store/manager/controller/BrandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="70" column="73" lean-forward="false" selection-start-line="70" selection-start-column="73" selection-end-line="70" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/service/brandService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="35" column="4" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/base_pagination.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/baseController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1554">
+          <caret line="42" column="37" lean-forward="false" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/controller/typeTemplateController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="99" column="28" lean-forward="false" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/js/service/typeTemplateService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-manager-web/src/main/webapp/admin/type_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-971">
+          <caret line="96" column="168" lean-forward="false" selection-start-line="96" selection-start-column="168" selection-end-line="96" selection-end-column="168" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-sellergoods-service/src/main/java/com/store/service/impl/SpecificationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+          <folding>
+            <element signature="e#4251#4252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbBrandMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="181" column="2" lean-forward="false" selection-start-line="181" selection-start-column="2" selection-end-line="181" selection-end-column="2" />
+          <folding>
+            <marker date="1542437475002" expanded="true" signature="3369:3472" ph="select from tb_brand" />
+            <marker date="1542437475002" expanded="true" signature="3556:3613" ph="delete from tb_brand... " />
+            <marker date="1542437475002" expanded="true" signature="3709:3729" ph="delete from tb_brand... " />
+            <marker date="1542437475002" expanded="true" signature="3902:4051" ph="insert into tb_brand... " />
+            <marker date="1542437475002" expanded="true" signature="4845:4874" ph="select count... tb_brand" />
+            <marker date="1542437475002" expanded="true" signature="5562:5722" ph="update tb_brand... " />
+            <marker date="1542437475002" expanded="true" signature="5926:6186" ph="update tb_brand... " />
+            <marker date="1542437475002" expanded="true" signature="6278:6420" ph="update tb_brand... " />
+            <marker date="1542437475002" expanded="true" signature="6498:6535" ph="SELECT id ,n... tb_brand" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-parent/store-dao/src/main/resources/com/store/mapper/TbSpecificationMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="168" column="15" lean-forward="false" selection-start-line="168" selection-start-column="15" selection-end-line="168" selection-end-column="15" />
+          <folding>
+            <marker date="1542524592835" expanded="true" signature="3328:3439" ph="select from tb_specification" />
+            <marker date="1542524592835" expanded="true" signature="3523:3588" ph="delete from tb_specification... " />
+            <marker date="1542524592835" expanded="true" signature="3692:3720" ph="delete from tb_specification... " />
+            <marker date="1542524592835" expanded="true" signature="4001:4110" ph="insert into tb_specification... " />
+            <marker date="1542524592835" expanded="true" signature="4788:4825" ph="select count... tb_specification" />
+            <marker date="1542524592835" expanded="true" signature="5419:5539" ph="update tb_specification... " />
+            <marker date="1542524592835" expanded="true" signature="5751:5931" ph="update tb_specification... " />
+            <marker date="1542524592835" expanded="true" signature="6031:6140" ph="update tb_specification... " />
+            <marker date="1542524592835" expanded="true" signature="6218:6268" ph="SELECT id sp... tb_specification" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1336,7 +1390,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>store-sellergoods-interface</last-edited>
+          <last-edited>store-pojo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
